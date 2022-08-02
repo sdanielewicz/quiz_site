@@ -5,7 +5,7 @@
 Test you JavaScript knowledge with this basic quiz.
 
 ### Installation
-Link to the deployed application can be found [here](https://github.com/sdanielewicz/quiz_site "JavaScript Quix").
+Link to the deployed application can be found [here](https://sdanielewicz.github.io/quiz_site/ "JavaScript Quiz").
 
 ### Usage
 Navigte to the deployed project. Click "Start Quiz." A timer will start with the remianing time in seconds. Select your answer for each question and click "Submit" to progress through quiz. If you get a wrong answer the time remaining will reduce by 10 seconds.
