@@ -1,0 +1,17 @@
+h1 {
+  font-size: 2em;
+  font-weight: lighter;
+  text-decoration: underline 2px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: lighter;
+  text-decoration: underline 2px;
+}
+
+.q {
+  background-color: #282828;
+  color: #bdae93;
+} 

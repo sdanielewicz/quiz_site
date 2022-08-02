@@ -1,0 +1,138 @@
+<!--
+JavaScript Quiz ver 1.0.0
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- <link rel="stylesheet" href=".reset.css"/> -->
+</head>
+
+<body>
+  <header>
+    <h1>JavaScript Quiz Site</h1>
+  </header>
+
+  <!-- time and penalty messages here  -->
+  <h2 class="time" style="text-align:right;"></h2>
+  <p class="penalty" style="text-align:right;"></p>
+  <p id="startscore"></p>
+
+  <!-- form holds divs which contain questions  -->
+  <form>
+    <div id="start">
+      <h2> Start the Quiz</h2>
+      <p>A quick multiple choice quiz to test your JavaScript skills</p>        
+      <button id="start_button" >Start</button>
+    </div>
+
+    <!-- id is linked to at end of quiz  -->
+    <div class="q" id="tryagain">
+      <h2>Question 1</h2>
+      <p>Which of these is not a datatype in JavaScript?</p>      
+        <input type="radio" name="answer" value="A">
+        <label for="a">A: tuple</label>
+      <br>
+        <input type="radio" name="answer" value="B">
+        <label for="b">B: number</label>
+      <br>
+        <input type="radio" name="answer" value="C">
+        <label for="c">C: boolean</label>
+      <br>
+        <input type="radio" name="answer" value="D">
+        <label for="D">D: strings</label>
+      <br>
+        <button id="submit1">Submit</button>
+    </div>
+
+    <div class="q">
+      <h2>Question 2</h2>
+      <p>Which of these is the modulo operator?</p>
+        <input type="radio" name="answer" value="A">
+        <label for="a">A: //</label>
+      <br>
+        <input type="radio" name="answer" value="B">
+        <label for="b">B: %</label>
+      <br>
+        <input type="radio" name="answer" value="C">
+        <label for="c">C: /</label>
+      <br>
+        <input type="radio" name="answer" value="D">
+        <label for="D">D: *</label>
+      <br>
+        <button id="submit2">Submit</button>
+      </div>
+
+    <div class="q">
+      <h2>Question 3</h2>
+      <p>What does the second statement of a for loop do?</p>
+        <input type="radio" name="answer" value="A">
+        <label for="a">A: set the incrementer</label>
+      <br>
+        <input type="radio" name="answer" value="B">
+        <label for="b">B: set the vairble</label>
+      <br>
+        <input type="radio" name="answer" value="C">
+        <label for="c">C: defines the condition for the for loop</label>
+      <br>
+        <input type="radio" name="answer" value="D">
+        <label for="D">D: log to console</label>
+      <br>
+        <button id="submit3">Submit</button>
+    </div>
+
+    <div class="q">
+      <h2>Question 4</h2>
+      <p>How do you log an entry the console?</p>
+        <input type="radio" name="answer" value="A">
+        <label for="a">A: console.log."your text"</label>
+      <br>
+          <input type="radio" name="answer" value="B">
+          <label for="b">B: println("Your text")</label>
+      <br>
+          <input type="radio" name="answer" value="C">
+          <label for="c">C: print("Your text")</label>
+      <br>
+          <input type="radio" name="answer" value="D">
+          <label for="D">D: console.log("Your text");</label>
+      <br>
+          <button id="submit4">Submit</button>
+    </div>
+    
+    <div class="q">
+      <h2>Question 5</h2>
+      <p>What does the DOM stand for?</p>
+        <input type="radio" name="answer" value="A">
+        <label for="a">A: Document Object Model</label>
+      <br>
+        <input type="radio" name="answer" value="B">
+        <label for="b">B: Domain Object Mode</label>
+      <br>
+        <input type="radio" name="answer" value="C">
+        <label for="c">C: Digital Outside Media</label>
+      <br>
+        <input type="radio" name="answer" value="D">
+        <label for="D">D: Dominant Occlusion Matrix</label>
+      <br>
+        <button id="submit5">Submit and get score</button>
+    </div>
+    
+    <!-- page to display the score  -->
+    <div class="q">
+      <h2>Score Page</h2>
+      <p id="score"></p>
+        <input type="text" name="initials">
+        <label for="Enter initials"></label>
+        <a href="tryagain"><button id="save6">Save score and try again.</button></a>
+    </div>
+  </form>
+  
+<script src="./assets/js/script.js"></script> 
+ 
+</body>
+</html>
